@@ -1,0 +1,76 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar,
+.dark-mode .footer {
+    background-color: #1a1a1a !important;
+}
+
+/* Game Cards */
+.game-card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Rating Stars */
+.rating {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .game-card {
+        margin-bottom: 20px;
+    }
+    /* Forum Styling */
+.forum-category {
+    transition: all 0.3s ease;
+}
+.forum-category:hover {
+    background-color: #f8f9fa;
+    transform: translateX(5px);
+}
+.thread-count {
+    background-color: #007bff;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 50rem;
+    font-size: 0.8rem;
+}
+/* Forum Styles */
+.comments-section {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.like-btn .bi-heart-fill {
+    color: #dc3545;
+}
+
+.media-preview {
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+}
